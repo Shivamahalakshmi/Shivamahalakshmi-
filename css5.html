@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout Example</title>
+    <style>
+        /* Container styles */
+        .container {
+            display: flex; /* Use flexbox */
+            justify-content: space-between; /* Distribute items evenly along the main axis */
+            align-items: center; /* Center items along the cross axis */
+            height: 300px; /* Height of the container */
+            background-color: #f0f0f0; /* Background color */
+            padding: 20px; /* Padding */
+        }
+
+        /* Item styles */
+        .item {
+            background-color: #3498db; /* Background color */
+            color: #fff; /* Text color */
+            padding: 20px; /* Padding */
+            margin: 10px; /* Margin */
+            flex: 1; /* Flex property to make items flexible */
+            /* flex: 1 1 auto; can also be used for shorthand */
+        }
+    </style>
+</head>
+<body>
+    <h2>Flexbox Layout Example</h2>
+
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
